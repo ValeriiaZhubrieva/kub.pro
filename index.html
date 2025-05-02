@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250502111414">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="" class="header__logo">
+						<img src="img/logo.webp" width="223" height="50" loading="lazy" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link">Заявки на ремонт</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Кошторис</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Прайс-лист</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Заказы</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Финансы</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a href="#" class="header__btn button-small">
+						<span>Войти в кабинет</span>
+						<svg class="header__btn-icon" width="28" height="28" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.8007 13.4877C15.6537 13.4877 17.258 12.8231 18.5692 11.5119C19.88 10.2009 20.5448 8.59682 20.5448 6.74364C20.5448 4.8911 19.8802 3.2868 18.569 1.97537C17.2578 0.66458 15.6535 0 13.8007 0C11.9475 0 10.3434 0.66458 9.03244 1.97558C7.72144 3.28658 7.05664 4.89089 7.05664 6.74364C7.05664 8.59682 7.72144 10.2011 9.03244 11.5121C10.3439 12.8229 11.9482 13.4877 13.8007 13.4877ZM10.1928 3.13577C11.1988 2.12982 12.3788 1.64084 13.8007 1.64084C15.2224 1.64084 16.4026 2.12982 17.4088 3.13577C18.4148 4.14193 18.904 5.32219 18.904 6.74364C18.904 8.16551 18.4148 9.34556 17.4088 10.3517C16.4026 11.3579 15.2224 11.8469 13.8007 11.8469C12.3793 11.8469 11.1992 11.3577 10.1928 10.3517C9.18668 9.34578 8.69748 8.16551 8.69748 6.74364C8.69748 5.32219 9.18668 4.14193 10.1928 3.13577Z" />
+							<path d="M25.6008 21.5307C25.563 20.9851 25.4865 20.3899 25.3739 19.7614C25.2603 19.1283 25.114 18.5297 24.9388 17.9826C24.7576 17.4171 24.5117 16.8587 24.2073 16.3236C23.8918 15.7682 23.521 15.2845 23.1048 14.8866C22.6697 14.4702 22.1369 14.1355 21.5208 13.8913C20.9069 13.6484 20.2265 13.5254 19.4987 13.5254C19.2128 13.5254 18.9364 13.6426 18.4026 13.9902C18.074 14.2045 17.6897 14.4523 17.2607 14.7263C16.894 14.96 16.3971 15.179 15.7833 15.3773C15.1845 15.571 14.5766 15.6693 13.9763 15.6693C13.3764 15.6693 12.7685 15.571 12.1693 15.3773C11.5562 15.1792 11.0591 14.9603 10.6929 14.7266C10.268 14.455 9.88348 14.2072 9.55002 13.99C9.0166 13.6424 8.74017 13.5251 8.45435 13.5251C7.72632 13.5251 7.04614 13.6484 6.4324 13.8915C5.81674 14.1353 5.28375 14.47 4.84818 14.8868C4.43204 15.285 4.06119 15.7684 3.74588 16.3236C3.44189 16.8587 3.1958 17.4169 3.01465 17.9828C2.83969 18.5299 2.69336 19.1283 2.57971 19.7614C2.46692 20.3891 2.39066 20.9844 2.35284 21.5313C2.31567 22.066 2.29688 22.6225 2.29688 23.1847C2.29688 24.6463 2.76151 25.8296 3.67773 26.7022C4.58264 27.5634 5.77979 28 7.23605 28H20.7182C22.1741 28 23.3712 27.5634 24.2763 26.7022C25.1928 25.8302 25.6574 24.6466 25.6574 23.1845C25.6572 22.6203 25.6382 22.0639 25.6008 21.5307ZM23.145 25.5134C22.5471 26.0825 21.7532 26.3592 20.718 26.3592H7.23605C6.20062 26.3592 5.4068 26.0825 4.80908 25.5136C4.22269 24.9555 3.93771 24.1935 3.93771 23.1847C3.93771 22.6601 3.95502 22.142 3.98962 21.6447C4.02338 21.1568 4.09238 20.6208 4.1947 20.0513C4.29575 19.4888 4.42435 18.961 4.5773 18.4831C4.72406 18.0249 4.92422 17.5712 5.17245 17.1341C5.40936 16.7175 5.68195 16.3601 5.98273 16.0722C6.26407 15.8028 6.61868 15.5823 7.03653 15.417C7.42297 15.264 7.85727 15.1803 8.32874 15.1677C8.3862 15.1982 8.48853 15.2566 8.6543 15.3647C8.99161 15.5845 9.3804 15.8353 9.81021 16.1098C10.2947 16.4187 10.9189 16.6977 11.6647 16.9384C12.4271 17.1849 13.2047 17.3101 13.9765 17.3101C14.7483 17.3101 15.5261 17.1849 16.2881 16.9386C17.0345 16.6974 17.6585 16.4187 18.1436 16.1093C18.5835 15.8282 18.9614 15.5847 19.2987 15.3647C19.4645 15.2568 19.5668 15.1982 19.6243 15.1677C20.0959 15.1803 20.5302 15.264 20.9169 15.417C21.3345 15.5823 21.6891 15.803 21.9705 16.0722C22.2713 16.3599 22.5439 16.7173 22.7808 17.1343C23.0292 17.5712 23.2296 18.0251 23.3761 18.4829C23.5293 18.9614 23.6581 19.4891 23.7589 20.0511C23.8611 20.6217 23.9303 21.1579 23.964 21.6449V21.6454C23.9988 22.1408 24.0164 22.6586 24.0166 23.1847C24.0164 24.1937 23.7314 24.9555 23.145 25.5134Z" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__body">
+						<div class="hero__video">
+							<img class="hero__video-bg" src="img/Macbook-Pro.svg" alt="Image">
+							<div class="hero__video-preview">
+								<img src="img/Screen-mac.webp" width="920" height="624" loading="lazy" alt="Image">
+								<button type="button" class="hero__video-play">
+									<img src="img/play-big.svg" alt="play">
+								</button>
+							</div>
+							<div class="hero__video-block">
+								<video src="files/Крем-пудра VENZEN Beauty Cream.mp4" width="920" height="624" loading="lazy"></video>
+							</div>
+						</div>
+						<div class="hero__content">
+							<div class="hero__head">
+								<div class="hero__subtitle">
+									СТРОИТЕЛЬНЫЙ МАГАЗИН
+								</div>
+								<h1 class="hero__title">
+									(СТРОЙМАГ) КУБ
+								</h1>
+							</div>
+							<div class="hero__text">
+								<p>
+									База стройматериалов "КУБ" уверенно вошла на украинский рынок стройматериалов в 2013
+									году и, благодаря стабильно высокому качеству предоставляемой продукции, заручилась
+									поддержкой надежных партнеров и доверием клиентов.
+								</p>
+								<p>
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов, они же строительные базы "КУБ" — в
+									таких крупных городах, как Киев, Харьков, Одесса и Днепр.
+								</p>
+							</div>
+							<a href="#" class="hero__btn button">
+								<div class="button__icon">
+									<svg width="28" height="28" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.8007 13.4877C15.6537 13.4877 17.258 12.8231 18.5692 11.5119C19.88 10.2009 20.5448 8.59682 20.5448 6.74364C20.5448 4.8911 19.8802 3.2868 18.569 1.97537C17.2578 0.66458 15.6535 0 13.8007 0C11.9475 0 10.3434 0.66458 9.03244 1.97558C7.72144 3.28658 7.05664 4.89089 7.05664 6.74364C7.05664 8.59682 7.72144 10.2011 9.03244 11.5121C10.3439 12.8229 11.9482 13.4877 13.8007 13.4877ZM10.1928 3.13577C11.1988 2.12982 12.3788 1.64084 13.8007 1.64084C15.2224 1.64084 16.4026 2.12982 17.4088 3.13577C18.4148 4.14193 18.904 5.32219 18.904 6.74364C18.904 8.16551 18.4148 9.34556 17.4088 10.3517C16.4026 11.3579 15.2224 11.8469 13.8007 11.8469C12.3793 11.8469 11.1992 11.3577 10.1928 10.3517C9.18668 9.34578 8.69748 8.16551 8.69748 6.74364C8.69748 5.32219 9.18668 4.14193 10.1928 3.13577Z" />
+										<path d="M25.6008 21.5307C25.563 20.9851 25.4865 20.3899 25.3739 19.7614C25.2603 19.1283 25.114 18.5297 24.9388 17.9826C24.7576 17.4171 24.5117 16.8587 24.2073 16.3236C23.8918 15.7682 23.521 15.2845 23.1048 14.8866C22.6697 14.4702 22.1369 14.1355 21.5208 13.8913C20.9069 13.6484 20.2265 13.5254 19.4987 13.5254C19.2128 13.5254 18.9364 13.6426 18.4026 13.9902C18.074 14.2045 17.6897 14.4523 17.2607 14.7263C16.894 14.96 16.3971 15.179 15.7833 15.3773C15.1845 15.571 14.5766 15.6693 13.9763 15.6693C13.3764 15.6693 12.7685 15.571 12.1693 15.3773C11.5562 15.1792 11.0591 14.9603 10.6929 14.7266C10.268 14.455 9.88348 14.2072 9.55002 13.99C9.0166 13.6424 8.74017 13.5251 8.45435 13.5251C7.72632 13.5251 7.04614 13.6484 6.4324 13.8915C5.81674 14.1353 5.28375 14.47 4.84818 14.8868C4.43204 15.285 4.06119 15.7684 3.74588 16.3236C3.44189 16.8587 3.1958 17.4169 3.01465 17.9828C2.83969 18.5299 2.69336 19.1283 2.57971 19.7614C2.46692 20.3891 2.39066 20.9844 2.35284 21.5313C2.31567 22.066 2.29688 22.6225 2.29688 23.1847C2.29688 24.6463 2.76151 25.8296 3.67773 26.7022C4.58264 27.5634 5.77979 28 7.23605 28H20.7182C22.1741 28 23.3712 27.5634 24.2763 26.7022C25.1928 25.8302 25.6574 24.6466 25.6574 23.1845C25.6572 22.6203 25.6382 22.0639 25.6008 21.5307ZM23.145 25.5134C22.5471 26.0825 21.7532 26.3592 20.718 26.3592H7.23605C6.20062 26.3592 5.4068 26.0825 4.80908 25.5136C4.22269 24.9555 3.93771 24.1935 3.93771 23.1847C3.93771 22.6601 3.95502 22.142 3.98962 21.6447C4.02338 21.1568 4.09238 20.6208 4.1947 20.0513C4.29575 19.4888 4.42435 18.961 4.5773 18.4831C4.72406 18.0249 4.92422 17.5712 5.17245 17.1341C5.40936 16.7175 5.68195 16.3601 5.98273 16.0722C6.26407 15.8028 6.61868 15.5823 7.03653 15.417C7.42297 15.264 7.85727 15.1803 8.32874 15.1677C8.3862 15.1982 8.48853 15.2566 8.6543 15.3647C8.99161 15.5845 9.3804 15.8353 9.81021 16.1098C10.2947 16.4187 10.9189 16.6977 11.6647 16.9384C12.4271 17.1849 13.2047 17.3101 13.9765 17.3101C14.7483 17.3101 15.5261 17.1849 16.2881 16.9386C17.0345 16.6974 17.6585 16.4187 18.1436 16.1093C18.5835 15.8282 18.9614 15.5847 19.2987 15.3647C19.4645 15.2568 19.5668 15.1982 19.6243 15.1677C20.0959 15.1803 20.5302 15.264 20.9169 15.417C21.3345 15.5823 21.6891 15.803 21.9705 16.0722C22.2713 16.3599 22.5439 16.7173 22.7808 17.1343C23.0292 17.5712 23.2296 18.0251 23.3761 18.4829C23.5293 18.9614 23.6581 19.4891 23.7589 20.0511C23.8611 20.6217 23.9303 21.1579 23.964 21.6449V21.6454C23.9988 22.1408 24.0164 22.6586 24.0166 23.1847C24.0164 24.1937 23.7314 24.9555 23.145 25.5134Z" />
+									</svg>
+								</div>
+								<span>Зарегистрироваться</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="opportunities">
+				<div class="opportunities__container">
+					<h2 class="opportunities__title title">
+						Можливості сервісу
+					</h2>
+					<div class="opportunities__items">
+						<div class="opportunities__item">
+							<img class="opportunities__item-icon" src="img/icons/document.svg" width="66" height="66" loading="lazy" alt="Image">
+							<div class="opportunities__item-title">
+								Заявки на ремонт
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<img class="opportunities__item-icon" src="img/icons/price-list.svg" width="66" height="66" loading="lazy" alt="Image">
+							<div class="opportunities__item-title">
+								Створення кошторисів
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<img class="opportunities__item-icon" src="img/icons/like.svg" width="66" height="66" loading="lazy" alt="Image">
+							<div class="opportunities__item-title">
+								Доступ до оптових цін
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<img class="opportunities__item-icon" src="img/icons/user.svg" width="66" height="66" loading="lazy" alt="Image">
+							<div class="opportunities__item-title">
+								Персональний асистент
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info-block">
+				<div class="info-block__container">
+					<h2 class="info-block__title title">
+						Заявки на ремонт та будівництво
+					</h2>
+					<div class="info-block__body">
+						<div class="info-block__slider swiper">
+							<div class="info-block__wrapper swiper-wrapper">
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-4.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-4.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-4.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="info-block__content">
+							<ul class="info-block__list">
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+							</ul>
+							<div class="info-block__btns">
+								<a href="#" class="info-block__btn button">
+									<div class="button__icon">
+										<svg width="23" height="26" viewBox="0 0 23 26" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.0005 11.2676C22.2921 12.0133 22.3324 13.8427 21.1216 14.6562L21.0005 14.7324L4.50049 24.2588C3.16721 25.0284 1.50055 24.0658 1.50049 22.5264L1.50049 3.47363C1.50055 1.98217 3.06457 1.03279 4.37451 1.6748L4.50049 1.74121L21.0005 11.2676Z" stroke-width="2" />
+										</svg>
+									</div>
+									<span>Хочу демонстрацію</span>
+								</a>
+								<a href="#" class="info-block__btn button-gray">
+									<div class="button__icon">
+										<svg width="25" height="16" viewBox="0 0 25 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path d="M24.7081 8.70711C25.0986 8.31658 25.0986 7.68342 24.7081 7.29289L18.3441 0.928932C17.9536 0.538408 17.3204 0.538408 16.9299 0.928932C16.5394 1.31946 16.5394 1.95262 16.9299 2.34315L22.5868 8L16.9299 13.6569C16.5394 14.0474 16.5394 14.6805 16.9299 15.0711C17.3204 15.4616 17.9536 15.4616 18.3441 15.0711L24.7081 8.70711ZM0.000976562 8V9H24.001V8V7H0.000976562V8Z" />
+										</svg>
+									</div>
+									<span>Детальніше</span>
+								</a>
+							</div>
+							<nav class="info-block__nav">
+								<a href="#" class="info-block__nav-link">
+									Заявки на ремонт
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Закупка будматеріалів
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Персонал асистент
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Фінансовий облік
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info-block info-block--reverse" style="background-image: url('img/bg.webp');">
+				<div class="info-block__container">
+					<h2 class="info-block__title title">
+						Створення портфоліо та власного прайс-листу
+					</h2>
+					<div class="info-block__body">
+						<div class="info-block__slider swiper">
+							<div class="info-block__wrapper swiper-wrapper">
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-3.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-3.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-3.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="info-block__content">
+							<ul class="info-block__list">
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+							</ul>
+							<div class="info-block__btns">
+								<a href="#" class="info-block__btn button">
+									<div class="button__icon">
+										<svg width="23" height="26" viewBox="0 0 23 26" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.0005 11.2676C22.2921 12.0133 22.3324 13.8427 21.1216 14.6562L21.0005 14.7324L4.50049 24.2588C3.16721 25.0284 1.50055 24.0658 1.50049 22.5264L1.50049 3.47363C1.50055 1.98217 3.06457 1.03279 4.37451 1.6748L4.50049 1.74121L21.0005 11.2676Z" stroke-width="2" />
+										</svg>
+									</div>
+									<span>Хочу демонстрацію</span>
+								</a>
+								<a href="#" class="info-block__btn button-gray">
+									<div class="button__icon">
+										<svg width="25" height="16" viewBox="0 0 25 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path d="M24.7081 8.70711C25.0986 8.31658 25.0986 7.68342 24.7081 7.29289L18.3441 0.928932C17.9536 0.538408 17.3204 0.538408 16.9299 0.928932C16.5394 1.31946 16.5394 1.95262 16.9299 2.34315L22.5868 8L16.9299 13.6569C16.5394 14.0474 16.5394 14.6805 16.9299 15.0711C17.3204 15.4616 17.9536 15.4616 18.3441 15.0711L24.7081 8.70711ZM0.000976562 8V9H24.001V8V7H0.000976562V8Z" />
+										</svg>
+									</div>
+									<span>Детальніше</span>
+								</a>
+							</div>
+							<nav class="info-block__nav">
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Заявки на ремонт
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Закупка будматеріалів
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Персонал асистент
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Фінансовий облік
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info-block">
+				<div class="info-block__container">
+					<h2 class="info-block__title title">
+						Формування кошторису та комунікація з замовником
+					</h2>
+					<div class="info-block__body">
+						<div class="info-block__slider swiper">
+							<div class="info-block__wrapper swiper-wrapper">
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-1.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-1.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-1.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="info-block__content">
+							<ul class="info-block__list">
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+							</ul>
+							<div class="info-block__btns">
+								<a href="#" class="info-block__btn button">
+									<div class="button__icon">
+										<svg width="23" height="26" viewBox="0 0 23 26" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.0005 11.2676C22.2921 12.0133 22.3324 13.8427 21.1216 14.6562L21.0005 14.7324L4.50049 24.2588C3.16721 25.0284 1.50055 24.0658 1.50049 22.5264L1.50049 3.47363C1.50055 1.98217 3.06457 1.03279 4.37451 1.6748L4.50049 1.74121L21.0005 11.2676Z" stroke-width="2" />
+										</svg>
+									</div>
+									<span>Хочу демонстрацію</span>
+								</a>
+								<a href="#" class="info-block__btn button-gray">
+									<div class="button__icon">
+										<svg width="25" height="16" viewBox="0 0 25 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path d="M24.7081 8.70711C25.0986 8.31658 25.0986 7.68342 24.7081 7.29289L18.3441 0.928932C17.9536 0.538408 17.3204 0.538408 16.9299 0.928932C16.5394 1.31946 16.5394 1.95262 16.9299 2.34315L22.5868 8L16.9299 13.6569C16.5394 14.0474 16.5394 14.6805 16.9299 15.0711C17.3204 15.4616 17.9536 15.4616 18.3441 15.0711L24.7081 8.70711ZM0.000976562 8V9H24.001V8V7H0.000976562V8Z" />
+										</svg>
+									</div>
+									<span>Детальніше</span>
+								</a>
+							</div>
+							<nav class="info-block__nav">
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Заявки на ремонт
+								</a>
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Закупка будматеріалів
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Персонал асистент
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Фінансовий облік
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info-block info-block--reverse" style="background-image: url('img/bg.webp');">
+				<div class="info-block__container">
+					<h2 class="info-block__title title">
+						Доступ до закупки будматеріалів в 27 містах України
+					</h2>
+					<div class="info-block__body">
+						<div class="info-block__slider swiper">
+							<div class="info-block__wrapper swiper-wrapper">
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-2.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-2.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-2.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="info-block__content">
+							<ul class="info-block__list">
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+							</ul>
+							<div class="info-block__btns">
+								<a href="#" class="info-block__btn button">
+									<div class="button__icon">
+										<svg width="23" height="26" viewBox="0 0 23 26" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.0005 11.2676C22.2921 12.0133 22.3324 13.8427 21.1216 14.6562L21.0005 14.7324L4.50049 24.2588C3.16721 25.0284 1.50055 24.0658 1.50049 22.5264L1.50049 3.47363C1.50055 1.98217 3.06457 1.03279 4.37451 1.6748L4.50049 1.74121L21.0005 11.2676Z" stroke-width="2" />
+										</svg>
+									</div>
+									<span>Хочу демонстрацію</span>
+								</a>
+								<a href="#" class="info-block__btn button-gray">
+									<div class="button__icon">
+										<svg width="25" height="16" viewBox="0 0 25 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path d="M24.7081 8.70711C25.0986 8.31658 25.0986 7.68342 24.7081 7.29289L18.3441 0.928932C17.9536 0.538408 17.3204 0.538408 16.9299 0.928932C16.5394 1.31946 16.5394 1.95262 16.9299 2.34315L22.5868 8L16.9299 13.6569C16.5394 14.0474 16.5394 14.6805 16.9299 15.0711C17.3204 15.4616 17.9536 15.4616 18.3441 15.0711L24.7081 8.70711ZM0.000976562 8V9H24.001V8V7H0.000976562V8Z" />
+										</svg>
+									</div>
+									<span>Детальніше</span>
+								</a>
+							</div>
+							<nav class="info-block__nav">
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Заявки на ремонт
+								</a>
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Закупка будматеріалів
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Персонал асистент
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Фінансовий облік
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info-block">
+				<div class="info-block__container">
+					<h2 class="info-block__title title">
+						Команда та пошук підрядників
+					</h2>
+					<div class="info-block__body">
+						<div class="info-block__slider swiper">
+							<div class="info-block__wrapper swiper-wrapper">
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-5.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-5.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+								<div class="info-block__slide swiper-slide">
+									<img src="img/slides/image-5.webp" width="900" height="620" loading="lazy" alt="Image">
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="info-block__content">
+							<div data-spollers data-one-spoller class="spollers-info">
+								<details class="spollers-info__item" data-open>
+									<summary class="spollers-info__title">Команда та пошук підрядників</summary>
+									<div class="spollers-info__body">
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов,
+										они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков,
+										Одесса и Днепр.
+									</div>
+								</details>
+								<details class="spollers-info__item">
+									<summary class="spollers-info__title">Команда та пошук підрядників</summary>
+									<div class="spollers-info__body">
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов,
+										они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков,
+										Одесса и Днепр.
+									</div>
+								</details>
+								<details class="spollers-info__item">
+									<summary class="spollers-info__title">Команда та пошук підрядників</summary>
+									<div class="spollers-info__body">
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов,
+										они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков,
+										Одесса и Днепр.
+									</div>
+								</details>
+								<details class="spollers-info__item">
+									<summary class="spollers-info__title">Команда та пошук підрядників</summary>
+									<div class="spollers-info__body">
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов,
+										они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков,
+										Одесса и Днепр.
+									</div>
+								</details>
+							</div>
+							<div class="info-block__btns">
+								<a href="#" class="info-block__btn button">
+									<div class="button__icon">
+										<svg width="23" height="26" viewBox="0 0 23 26" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.0005 11.2676C22.2921 12.0133 22.3324 13.8427 21.1216 14.6562L21.0005 14.7324L4.50049 24.2588C3.16721 25.0284 1.50055 24.0658 1.50049 22.5264L1.50049 3.47363C1.50055 1.98217 3.06457 1.03279 4.37451 1.6748L4.50049 1.74121L21.0005 11.2676Z" stroke-width="2" />
+										</svg>
+									</div>
+									<span>Хочу демонстрацію</span>
+								</a>
+								<a href="#" class="info-block__btn button-gray">
+									<div class="button__icon">
+										<svg width="25" height="16" viewBox="0 0 25 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path d="M24.7081 8.70711C25.0986 8.31658 25.0986 7.68342 24.7081 7.29289L18.3441 0.928932C17.9536 0.538408 17.3204 0.538408 16.9299 0.928932C16.5394 1.31946 16.5394 1.95262 16.9299 2.34315L22.5868 8L16.9299 13.6569C16.5394 14.0474 16.5394 14.6805 16.9299 15.0711C17.3204 15.4616 17.9536 15.4616 18.3441 15.0711L24.7081 8.70711ZM0.000976562 8V9H24.001V8V7H0.000976562V8Z" />
+										</svg>
+									</div>
+									<span>Детальніше</span>
+								</a>
+							</div>
+							<nav class="info-block__nav">
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Заявки на ремонт
+								</a>
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Закупка будматеріалів
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Персонал асистент
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Фінансовий облік
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info-block info-block--reverse" style="background-image: url('img/bg.webp');">
+				<div class="info-block__container">
+					<h2 class="info-block__title title">
+						Фінансовий облік та наразування Зарплати
+					</h2>
+					<div class="info-block__body">
+						<div class="info-block__img">
+							<img src="img/slides/image-6.webp" width="1100" height="572" loading="lazy" alt="Image">
+						</div>
+						<div class="info-block__content">
+							<ul class="info-block__list">
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+							</ul>
+							<div class="info-block__btns">
+								<a href="#" class="info-block__btn button">
+									<div class="button__icon">
+										<svg width="23" height="26" viewBox="0 0 23 26" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M21.0005 11.2676C22.2921 12.0133 22.3324 13.8427 21.1216 14.6562L21.0005 14.7324L4.50049 24.2588C3.16721 25.0284 1.50055 24.0658 1.50049 22.5264L1.50049 3.47363C1.50055 1.98217 3.06457 1.03279 4.37451 1.6748L4.50049 1.74121L21.0005 11.2676Z" stroke-width="2" />
+										</svg>
+									</div>
+									<span>Хочу демонстрацію</span>
+								</a>
+								<a href="#" class="info-block__btn button-gray">
+									<div class="button__icon">
+										<svg width="25" height="16" viewBox="0 0 25 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path d="M24.7081 8.70711C25.0986 8.31658 25.0986 7.68342 24.7081 7.29289L18.3441 0.928932C17.9536 0.538408 17.3204 0.538408 16.9299 0.928932C16.5394 1.31946 16.5394 1.95262 16.9299 2.34315L22.5868 8L16.9299 13.6569C16.5394 14.0474 16.5394 14.6805 16.9299 15.0711C17.3204 15.4616 17.9536 15.4616 18.3441 15.0711L24.7081 8.70711ZM0.000976562 8V9H24.001V8V7H0.000976562V8Z" />
+										</svg>
+									</div>
+									<span>Детальніше</span>
+								</a>
+							</div>
+							<nav class="info-block__nav">
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Заявки на ремонт
+								</a>
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Закупка будматеріалів
+								</a>
+								<a href="#" class="info-block__nav-link info-block__nav-link--top">
+									Персонал асистент
+								</a>
+								<a href="#" class="info-block__nav-link">
+									Фінансовий облік
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="help">
+				<h2 class="help__title title">
+					Персональний бізнес ассистент
+				</h2>
+				<div class="help__inner">
+					<div class="help__body">
+						<div class="help__img">
+							<img src="img/help-image.webp" width="836" height="616" loading="lazy" alt="Image">
+						</div>
+						<div class="help__content">
+							<div class="help__text">
+								<p>
+									База стройматериалов "КУБ" уверенно вошла на украинский рынок стройматериалов в 2013
+									году и, благодаря стабильно высокому качеству предоставляемой продукции, заручилась
+									поддержкой надежных партнеров и доверием клиентов.
+								</p>
+								<p>
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов, они же строительные базы "КУБ" — в
+									таких
+									крупных городах, как Киев, Харьков, Одесса и Днепр.
+								</p>
+							</div>
+							<div class="help__info">
+								<div class="help__subtitle">
+									Перелік послуг, які може надавати персональний помічник
+								</div>
+								<ul class="help__list">
+									<li>
+										Резервання матеріалів на складах
+									</li>
+									<li>
+										Пошук товарів та інструменту під замовлення
+									</li>
+									<li>
+										Серчінг и структуризація інформації під запит
+									</li>
+									<li>
+										Підбір підрядників з маркетигу та реклами
+									</li>
+									<li>
+										Послуги HR-спеціалістів для співбесід і пошуку співробітників
+									</li>
+									<li>
+										Пошук навчальних програм для команди
+									</li>
+								</ul>
+							</div>
+							<a href="#" class="help__btn button">
+								<div class="button__icon">
+									<svg width="25" height="26" viewBox="0 0 25 26" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path d="M23.7963 17.5572L17.9075 14.9185L17.8913 14.911C17.5856 14.7802 17.2521 14.7278 16.921 14.7583C16.5899 14.7889 16.2716 14.9015 15.995 15.086C15.9624 15.1075 15.9311 15.1309 15.9013 15.156L12.8588 17.7497C10.9313 16.8135 8.94126 14.8385 8.00501 12.936L10.6025 9.84725C10.6275 9.816 10.6513 9.78475 10.6738 9.751C10.8543 9.47512 10.9638 9.1589 10.9926 8.83046C11.0214 8.50203 10.9686 8.17157 10.8388 7.8685V7.8535L8.19251 1.95475C8.02094 1.55883 7.72592 1.22902 7.35149 1.01455C6.97707 0.800074 6.54333 0.712448 6.11501 0.764747C4.42122 0.98763 2.86649 1.81946 1.74118 3.10487C0.61587 4.39028 -0.00305116 6.04136 1.13108e-05 7.74975C1.13108e-05 17.6747 8.07501 25.7497 18 25.7497C19.7084 25.7528 21.3595 25.1339 22.6449 24.0086C23.9303 22.8833 24.7621 21.3285 24.985 19.6347C25.0374 19.2066 24.95 18.7729 24.7357 18.3985C24.5215 18.0241 24.1919 17.729 23.7963 17.5572ZM18 23.7497C13.758 23.7451 9.691 22.0579 6.69142 19.0583C3.69184 16.0588 2.00464 11.9918 2.00001 7.74975C1.99531 6.52911 2.43507 5.34849 3.23718 4.42838C4.03929 3.50827 5.14889 2.91158 6.35876 2.74975C6.35827 2.75473 6.35827 2.75976 6.35876 2.76475L8.98376 8.63975L6.40001 11.7322C6.37379 11.7624 6.34996 11.7946 6.32876 11.8285C6.14066 12.1171 6.0303 12.4495 6.0084 12.7933C5.9865 13.1372 6.0538 13.4808 6.20376 13.791C7.33626 16.1072 9.67001 18.4235 12.0113 19.5547C12.3237 19.7033 12.6694 19.7683 13.0144 19.7433C13.3595 19.7183 13.6922 19.6043 13.98 19.4122C14.0121 19.3906 14.043 19.3673 14.0725 19.3422L17.1113 16.7497L22.9863 19.381C22.9863 19.381 22.9963 19.381 23 19.381C22.8402 20.5926 22.2444 21.7044 21.3241 22.5085C20.4038 23.3126 19.2221 23.7539 18 23.7497Z" />
+									</svg>
+								</div>
+								<span>Связаться с нами</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="why" style="background-image: url('img/bg.webp');">
+				<div class="why__container">
+					<h2 class="why__title title">
+						Почему выбирают КУБ PRO?
+					</h2>
+					<div class="why__items">
+						<div class="why__item">
+							<div class="why__item-icon">
+								<img src="img/icons/refund.svg" width="100" height="100" loading="lazy" alt="Image">
+							</div>
+							<div class="why__item-title">
+								Отримання кешбеку від замовлень своїх клієнтів
+							</div>
+						</div>
+						<div class="why__item">
+							<div class="why__item-icon">
+								<img src="img/icons/backhoe.svg" width="110" height="110" loading="lazy" alt="Image">
+							</div>
+							<div class="why__item-title">
+								Замовлення автотранспорту, вантажників, спецтехніки на об’єкт
+							</div>
+						</div>
+						<div class="why__item">
+							<div class="why__item-icon">
+								<img src="img/icons/construction-materials.svg" width="100" height="100" loading="lazy" alt="Image">
+							</div>
+							<div class="why__item-title">
+								Унікальні пропозиції по інструменту, обладнанню та материалам від виробників
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="presentation" style="background-image: url('img/presentation-bg.webp');">
+				<div class="presentation__container">
+					<div class="presentation__body">
+						<div class="presentation__content">
+							<h2 class="presentation__title">
+								Запишитесь на <br>
+								бесплатную презентацию
+							</h2>
+							<div class="presentation__text">
+								<p>
+									Функціонал, який дозволяє використовувати рекламні можливості
+									інтернет платформи КУБ під індивідуальні потреби
+									та запити просування Вашого бренду.
+								</p>
+							</div>
+							<a href="#" class="presentation__btn button">
+								<div class="button__icon">
+									<svg width="25" height="26" viewBox="0 0 25 26" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path d="M23.7963 17.5572L17.9075 14.9185L17.8913 14.911C17.5856 14.7802 17.2521 14.7278 16.921 14.7583C16.5899 14.7889 16.2716 14.9015 15.995 15.086C15.9624 15.1075 15.9311 15.1309 15.9013 15.156L12.8588 17.7497C10.9313 16.8135 8.94126 14.8385 8.00501 12.936L10.6025 9.84725C10.6275 9.816 10.6513 9.78475 10.6738 9.751C10.8543 9.47512 10.9638 9.1589 10.9926 8.83046C11.0214 8.50203 10.9686 8.17157 10.8388 7.8685V7.8535L8.19251 1.95475C8.02094 1.55883 7.72592 1.22902 7.35149 1.01455C6.97707 0.800074 6.54333 0.712448 6.11501 0.764747C4.42122 0.98763 2.86649 1.81946 1.74118 3.10487C0.61587 4.39028 -0.00305116 6.04136 1.13108e-05 7.74975C1.13108e-05 17.6747 8.07501 25.7497 18 25.7497C19.7084 25.7528 21.3595 25.1339 22.6449 24.0086C23.9303 22.8833 24.7621 21.3285 24.985 19.6347C25.0374 19.2066 24.95 18.7729 24.7357 18.3985C24.5215 18.0241 24.1919 17.729 23.7963 17.5572ZM18 23.7497C13.758 23.7451 9.691 22.0579 6.69142 19.0583C3.69184 16.0588 2.00464 11.9918 2.00001 7.74975C1.99531 6.52911 2.43507 5.34849 3.23718 4.42838C4.03929 3.50827 5.14889 2.91158 6.35876 2.74975C6.35827 2.75473 6.35827 2.75976 6.35876 2.76475L8.98376 8.63975L6.40001 11.7322C6.37379 11.7624 6.34996 11.7946 6.32876 11.8285C6.14066 12.1171 6.0303 12.4495 6.0084 12.7933C5.9865 13.1372 6.0538 13.4808 6.20376 13.791C7.33626 16.1072 9.67001 18.4235 12.0113 19.5547C12.3237 19.7033 12.6694 19.7683 13.0144 19.7433C13.3595 19.7183 13.6922 19.6043 13.98 19.4122C14.0121 19.3906 14.043 19.3673 14.0725 19.3422L17.1113 16.7497L22.9863 19.381C22.9863 19.381 22.9963 19.381 23 19.381C22.8402 20.5926 22.2444 21.7044 21.3241 22.5085C20.4038 23.3126 19.2221 23.7539 18 23.7497Z" />
+									</svg>
+								</div>
+								<span>Связаться с нами</span>
+							</a>
+						</div>
+						<div class="presentation__img">
+							<img src="img/presentation-image.webp" width="501" height="617" loading="lazy" alt="Image">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="features" style="background-image: url('img/bg-2.webp');">
+				<div class="features__container">
+					<h2 class="features__title title">
+						КУБ PRO в цифрах
+					</h2>
+					<div class="features__rows">
+						<div class="features__row">
+							<div class="features__item">
+								<div class="features__item-number number-anim" data-number="234 122">
+									234 122
+								</div>
+								<div class="features__item-text">
+									Отримання кешбеку від замовлень <br> своїх клієнтів
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item-number number-anim" data-number="4 872">
+									4 872
+								</div>
+								<div class="features__item-text">
+									Отримання кешбеку від замовлень <br> своїх клієнтів
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item-number number-anim" data-number="455">
+									455
+								</div>
+								<div class="features__item-text">
+									Отримання кешбеку від замовлень <br> своїх клієнтів
+								</div>
+							</div>
+						</div>
+						<div class="features__row">
+							<div class="features__item">
+								<div class="features__item-number number-anim" data-number="234 122">
+									234 122
+								</div>
+								<div class="features__item-text">
+									Отримання кешбеку від замовлень <br> своїх клієнтів
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item-number number-anim" data-number="4 872">
+									4 872
+								</div>
+								<div class="features__item-text">
+									Отримання кешбеку від замовлень <br> своїх клієнтів
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item-number number-anim" data-number="455">
+									455
+								</div>
+								<div class="features__item-text">
+									Отримання кешбеку від замовлень <br> своїх клієнтів
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="tariffs">
+				<div class="tariffs__container">
+					<div class="tariffs__body">
+						<h2 class="tariffs__title title">
+							Тарифи
+						</h2>
+						<div class="tariffs__info">
+							<h2 class="tariffs__title title">
+								Тарифи
+							</h2>
+							<ul class="tariffs__list">
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+								<li>
+									Заявки на ремонт та будівництво
+								</li>
+							</ul>
+						</div>
+						<div class="tariffs__slider swiper">
+							<div class="tariffs__wrapper swiper-wrapper">
+								<div class="tariffs__slide swiper-slide">
+									<div class="tariffs-card">
+										<div class="tariffs-card__head">
+											<div class="tariffs-card__title">
+												Тариф 1
+											</div>
+										</div>
+										<div class="tariffs-card__items">
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+										</div>
+										<div class="tariffs-card__bottom">
+											<div class="tariffs-card__price">
+												999 грн
+											</div>
+											<a href="#" class="tariffs-card__btn button-small">
+												Замовити
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="tariffs__slide swiper-slide">
+									<div class="tariffs-card tariffs-card--accent">
+										<div class="tariffs-card__head">
+											<div class="tariffs-card__title">
+												Тариф 2
+											</div>
+										</div>
+										<div class="tariffs-card__items">
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+										</div>
+										<div class="tariffs-card__bottom">
+											<div class="tariffs-card__price">
+												1 999 грн
+											</div>
+											<a href="#" class="tariffs-card__btn button-small">
+												Замовити
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="tariffs__slide swiper-slide">
+									<div class="tariffs-card">
+										<div class="tariffs-card__head">
+											<div class="tariffs-card__title">
+												Тариф 3
+											</div>
+										</div>
+										<div class="tariffs-card__items">
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/cross.svg" alt="cross">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+											<div class="tariffs-card__item">
+												<img src="img/icons/check.svg" alt="check">
+												<span>Заявки на ремонт та будівництво</span>
+											</div>
+										</div>
+										<div class="tariffs-card__bottom">
+											<div class="tariffs-card__price">
+												1 499 грн
+											</div>
+											<a href="#" class="tariffs-card__btn button-small">
+												Замовити
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq__container">
+					<h2 class="faq__title title">
+						Часто задаваемые вопросы
+					</h2>
+					<div data-spollers data-one-spoller class="spollers">
+						<div class="spollers__column">
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+						</div>
+						<div class="spollers__column">
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</summary>
+								<div class="spollers__body">
+									Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+									представительства — магазины стройматериалов,
+									они же строительные базы "КУБ" — в таких крупных городах, как Киев, Харьков, Одесса
+									и
+									Днепр.
+								</div>
+							</details>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partners">
+				<div class="partners__container">
+					<h2 class="partners__title title">
+						Наши партнеры
+					</h2>
+					<div class="partners__inner">
+						<button type="button" class="swiper-button-prev">
+							<svg width="7" height="11" viewBox="0 0 7 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.41495 0.175823L6.80585 0.536143C6.92793 0.649543 6.99518 0.800413 6.99518 0.961658C6.99518 1.12281 6.92793 1.27386 6.80585 1.38726L2.3773 5.49754L6.81076 9.61256C6.93284 9.72578 7 9.87683 7 10.038C7 10.1991 6.93284 10.3503 6.81076 10.4636L6.42227 10.824C6.16964 11.0587 5.75811 11.0587 5.50548 10.824L0.207928 5.92458C0.0859463 5.81136 -2.4344e-07 5.66049 -2.36333e-07 5.4979L-2.36251e-07 5.49602C-2.29202e-07 5.33477 0.0860427 5.1839 0.207928 5.07068L5.49112 0.175823C5.6131 0.0624239 5.78056 0.00017881 5.95419 -4.57137e-08C6.12792 -3.81201e-08 6.29306 0.0624239 6.41495 0.175823Z" />
+							</svg>
+						</button>
+						<div class="partners__slider swiper">
+							<div class="partners__wrapper swiper-wrapper">
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-1.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-2.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-3.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-4.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-5.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-6.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-1.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-2.webp" alt="Image">
+								</div>
+								<div class="partners__slide swiper-slide">
+									<img src="img/partners/image-3.webp" alt="Image">
+								</div>
+							</div>
+						</div>
+						<button type="button" class="swiper-button-next">
+							<svg width="7" height="11" viewBox="0 0 7 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.585051 0.175823L0.19415 0.536143C0.0720711 0.649543 0.00481717 0.800414 0.00481718 0.961658C0.00481719 1.12282 0.0720711 1.27386 0.19415 1.38726L4.6227 5.49754L0.189236 9.61256C0.0671575 9.72578 -4.90954e-08 9.87683 -4.2051e-08 10.038C-3.50067e-08 10.1991 0.0671576 10.3503 0.189236 10.4636L0.577729 10.824C0.830365 11.0587 1.24189 11.0587 1.49452 10.824L6.79207 5.92458C6.91405 5.81136 7 5.66049 7 5.4979L7 5.49602C7 5.33478 6.91396 5.1839 6.79207 5.07068L1.50888 0.175823C1.3869 0.0624246 1.21944 0.000179237 1.04581 -4.57137e-08C0.872085 -3.81201e-08 0.706937 0.0624246 0.585051 0.175823Z" />
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="useful-articles" style="background-image: url('img/bg-2.webp');">
+				<div class="useful-articles__container">
+					<h2 class="useful-articles__title title">
+						Корисні статті
+					</h2>
+					<div class="useful-articles__items">
+						<article class="useful-article">
+							<div class="useful-article__img">
+								<img src="img/article-image.webp" width="534" height="306" loading="lazy" alt="Image">
+							</div>
+							<div class="useful-article__body">
+								<div class="useful-article__info">
+									<div class="useful-article__item">
+										<img src="img/icons/calendar.svg" alt="Image">
+										<span>Март 24</span>
+									</div>
+									<div class="useful-article__item">
+										<img src="img/icons/tag.svg" alt="Image">
+										<span>Маркетинг</span>
+									</div>
+									<div class="useful-article__item">
+										<img src="img/icons/chat-circle-dots.svg" alt="Image">
+										<span>5</span>
+									</div>
+								</div>
+								<div class="useful-article__title">
+									Помощь для тех, кто первым спешит на помощь
+								</div>
+								<div class="useful-article__text">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</div>
+								<a href="#" class="useful-article__btn button-small">
+									Детальніше
+								</a>
+							</div>
+							<div class="useful-article__more-info">
+								<div class="useful-article__more-title">
+									Ведущий украинский <br> производитель пенополистирола <br> ООО "ВІК БУД ТРЕЙД"
+								</div>
+								<div class="useful-article__more-text">
+									<p>
+										База стройматериалов "КУБ" уверенно вошла на украинский рынок стройматериалов в
+										2013 году и, благодаря стабильно высокому качеству предоставляемой продукции,
+										заручилась поддержкой надежных партнеров и доверием клиентов.
+									</p>
+									<p>
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов, они же строительные базы "КУБ" — в
+										таких крупных городах, как Киев, Харьков, Одесса и Днепр.
+									</p>
+								</div>
+								<a href="#" class="useful-article__btn button-small-white">
+									Детальніше
+								</a>
+							</div>
+						</article>
+						<article class="useful-article">
+							<div class="useful-article__img">
+								<img src="img/article-image.webp" width="534" height="306" loading="lazy" alt="Image">
+							</div>
+							<div class="useful-article__body">
+								<div class="useful-article__info">
+									<div class="useful-article__item">
+										<img src="img/icons/calendar.svg" alt="Image">
+										<span>Март 24</span>
+									</div>
+									<div class="useful-article__item">
+										<img src="img/icons/tag.svg" alt="Image">
+										<span>Маркетинг</span>
+									</div>
+									<div class="useful-article__item">
+										<img src="img/icons/chat-circle-dots.svg" alt="Image">
+										<span>5</span>
+									</div>
+								</div>
+								<div class="useful-article__title">
+									Подарить детям праздник!
+								</div>
+								<div class="useful-article__text">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</div>
+								<a href="#" class="useful-article__btn button-small">
+									Детальніше
+								</a>
+							</div>
+							<div class="useful-article__more-info">
+								<div class="useful-article__more-title">
+									Ведущий украинский <br> производитель пенополистирола <br> ООО "ВІК БУД ТРЕЙД"
+								</div>
+								<div class="useful-article__more-text">
+									<p>
+										База стройматериалов "КУБ" уверенно вошла на украинский рынок стройматериалов в
+										2013 году и, благодаря стабильно высокому качеству предоставляемой продукции,
+										заручилась поддержкой надежных партнеров и доверием клиентов.
+									</p>
+									<p>
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов, они же строительные базы "КУБ" — в
+										таких крупных городах, как Киев, Харьков, Одесса и Днепр.
+									</p>
+								</div>
+								<a href="#" class="useful-article__btn button-small-white">
+									Детальніше
+								</a>
+							</div>
+						</article>
+						<article class="useful-article">
+							<div class="useful-article__img">
+								<img src="img/article-image.webp" width="534" height="306" loading="lazy" alt="Image">
+							</div>
+							<div class="useful-article__body">
+								<div class="useful-article__info">
+									<div class="useful-article__item">
+										<img src="img/icons/calendar.svg" alt="Image">
+										<span>Март 24</span>
+									</div>
+									<div class="useful-article__item">
+										<img src="img/icons/tag.svg" alt="Image">
+										<span>Маркетинг</span>
+									</div>
+									<div class="useful-article__item">
+										<img src="img/icons/chat-circle-dots.svg" alt="Image">
+										<span>5</span>
+									</div>
+								</div>
+								<div class="useful-article__title">
+									Помощь для тех, кто первым спешит на помощь
+								</div>
+								<div class="useful-article__text">
+									Отримання кешбеку від замовлень своїх клієнтів
+								</div>
+								<a href="#" class="useful-article__btn button-small">
+									Детальніше
+								</a>
+							</div>
+							<div class="useful-article__more-info">
+								<div class="useful-article__more-title">
+									Ведущий украинский <br> производитель пенополистирола <br> ООО "ВІК БУД ТРЕЙД"
+								</div>
+								<div class="useful-article__more-text">
+									<p>
+										База стройматериалов "КУБ" уверенно вошла на украинский рынок стройматериалов в
+										2013 году и, благодаря стабильно высокому качеству предоставляемой продукции,
+										заручилась поддержкой надежных партнеров и доверием клиентов.
+									</p>
+									<p>
+										Благодаря этому за текущий год стройбаза "КУБ" расширилась и открыла свои
+										представительства — магазины стройматериалов, они же строительные базы "КУБ" — в
+										таких крупных городах, как Киев, Харьков, Одесса и Днепр.
+									</p>
+								</div>
+								<a href="#" class="useful-article__btn button-small-white">
+									Детальніше
+								</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<div data-showmore class="about__body">
+						<div data-showmore-content="734" class="about__content">
+							<div class="about__img">
+								<img src="img/article-image.webp" width="945" height="537" loading="lazy" alt="Image">
+							</div>
+							<h2 class="about__title title">
+								СТРОИТЕЛЬНЫЙ МАГАЗИН КУБ - ЛУЧШИЕ ЦЕНЫ НА СТРОЙМАТЕРИАЛЫ В ХАРЬКОВЕ
+							</h2>
+							<p>
+								Купить строительные материалы в Харькове сейчас как никогда легко – магазины
+								стройматериалов предлагают свои товары через интернет. Таким образом, с помощью браузера
+								на ноутбуке или смартфоне вы можете быстро ознакомиться с ценами на стройматериалы.
+							</p>
+							<p>
+								Проблема в том, что многие поставщики завышают стоимость материалов из-за большого
+								количества посредников между ними и непосредственным производителем. В отличие от них,
+								магазины стройматериалов сети «КУБ» получают свою продукцию от ведущих брендов типа
+								Knauf, Ceresit, Lafarge Plato, Момент, Титан и других.
+							</p>
+							<p>
+								Благодаря этому вы можете купить у нас качественные товары по самой низкой в Харькове
+								цене.
+							</p>
+							<p>
+								Купить строительные материалы в Харькове сейчас как никогда легко – магазины
+								стройматериалов предлагают свои товары через интернет. Таким образом, с помощью браузера
+								на ноутбуке или смартфоне вы можете быстро ознакомиться с ценами на стройматериалы.
+							</p>
+							<p>
+								Проблема в том, что многие поставщики завышают стоимость материалов из-за большого
+								количества посредников между ними и непосредственным производителем. В отличие от них,
+								магазины стройматериалов сети «КУБ» получают свою продукцию от ведущих брендов типа
+								Knauf, Ceresit, Lafarge Plato, Момент, Титан и других.
+							</p>
+							<p>
+								Благодаря этому вы можете купить у нас качественные товары по самой низкой в Харькове
+								цене.
+							</p>
+							<p>
+								Проблема в том, что многие поставщики завышают стоимость материалов из-за большого
+								количества посредников между ними и непосредственным производителем. В отличие от них,
+								магазины стройматериалов сети «КУБ» получают свою продукцию от ведущих брендов типа
+								Knauf, Ceresit, Lafarge Plato, Момент, Титан и других.
+							</p>
+						</div>
+						<button hidden data-showmore-button type="button" class="about__more">
+							<span>Розгорнути</span>
+							<span>Сховати</span>
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<a href="#" class="footer__logo">
+							<img src="img/logo.webp" width="223" height="50" loading="lazy" alt="logo">
+						</a>
+						<div class="footer__socials">
+							<div class="footer__socials-title">
+								КУБ в соц сетях:
+							</div>
+							<div class="footer__socials-items">
+								<a href="#" class="footer__socials-link">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10 1.80723C12.6506 1.80723 13.0121 1.80723 14.0964 1.80723C15.0602 1.80723 15.5422 2.04819 15.9036 2.16868C16.3855 2.40964 16.747 2.53012 17.1084 2.89157C17.4699 3.25301 17.7108 3.61446 17.8313 4.09639C17.9518 4.45783 18.0723 4.93976 18.1928 5.90362C18.1928 6.98795 18.1928 7.22892 18.1928 10C18.1928 12.7711 18.1928 13.0121 18.1928 14.0964C18.1928 15.0602 17.9518 15.5422 17.8313 15.9036C17.5904 16.3855 17.4699 16.747 17.1084 17.1084C16.747 17.4699 16.3855 17.7108 15.9036 17.8313C15.5422 17.9518 15.0602 18.0723 14.0964 18.1928C13.0121 18.1928 12.7711 18.1928 10 18.1928C7.22892 18.1928 6.98795 18.1928 5.90362 18.1928C4.93976 18.1928 4.45783 17.9518 4.09639 17.8313C3.61446 17.5904 3.25301 17.4699 2.89157 17.1084C2.53012 16.747 2.28916 16.3855 2.16868 15.9036C2.04819 15.5422 1.92771 15.0602 1.80723 14.0964C1.80723 13.0121 1.80723 12.7711 1.80723 10C1.80723 7.22892 1.80723 6.98795 1.80723 5.90362C1.80723 4.93976 2.04819 4.45783 2.16868 4.09639C2.40964 3.61446 2.53012 3.25301 2.89157 2.89157C3.25301 2.53012 3.61446 2.28916 4.09639 2.16868C4.45783 2.04819 4.93976 1.92771 5.90362 1.80723C6.98795 1.80723 7.3494 1.80723 10 1.80723ZM10 0C7.22892 0 6.98795 0 5.90362 0C4.81928 0 4.09639 0.240965 3.49398 0.481928C2.89157 0.722892 2.28916 1.08434 1.68675 1.68675C1.08434 2.28916 0.843374 2.77109 0.481928 3.49398C0.240965 4.09639 0.120482 4.81928 0 5.90362C0 6.98795 0 7.3494 0 10C0 12.7711 0 13.0121 0 14.0964C0 15.1807 0.240965 15.9036 0.481928 16.506C0.722892 17.1084 1.08434 17.7108 1.68675 18.3133C2.28916 18.9157 2.77109 19.1566 3.49398 19.5181C4.09639 19.759 4.81928 19.8795 5.90362 20C6.98795 20 7.3494 20 10 20C12.6506 20 13.0121 20 14.0964 20C15.1807 20 15.9036 19.759 16.506 19.5181C17.1084 19.2771 17.7108 18.9157 18.3133 18.3133C18.9157 17.7108 19.1566 17.2289 19.5181 16.506C19.759 15.9036 19.8795 15.1807 20 14.0964C20 13.0121 20 12.6506 20 10C20 7.3494 20 6.98795 20 5.90362C20 4.81928 19.759 4.09639 19.5181 3.49398C19.2771 2.89157 18.9157 2.28916 18.3133 1.68675C17.7108 1.08434 17.2289 0.843374 16.506 0.481928C15.9036 0.240965 15.1807 0.120482 14.0964 0C13.0121 0 12.7711 0 10 0Z" />
+										<path d="M10 4.81928C7.10843 4.81928 4.81928 7.10843 4.81928 10C4.81928 12.8916 7.10843 15.1807 10 15.1807C12.8916 15.1807 15.1807 12.8916 15.1807 10C15.1807 7.10843 12.8916 4.81928 10 4.81928ZM10 13.3735C8.19277 13.3735 6.62651 11.9277 6.62651 10C6.62651 8.19277 8.07229 6.62651 10 6.62651C11.8072 6.62651 13.3735 8.07229 13.3735 10C13.3735 11.8072 11.8072 13.3735 10 13.3735Z" />
+										<path d="M15.3012 5.90362C15.9666 5.90362 16.506 5.3642 16.506 4.6988C16.506 4.03339 15.9666 3.49398 15.3012 3.49398C14.6358 3.49398 14.0964 4.03339 14.0964 4.6988C14.0964 5.3642 14.6358 5.90362 15.3012 5.90362Z" />
+									</svg>
+								</a>
+								<a href="#" class="footer__socials-link">
+									<svg width="12" height="23" viewBox="0 0 12 23" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.65708 12.3648H11.3793L11.9637 8.56055H7.65632V6.48134C7.65632 4.90099 8.16957 3.49962 9.63891 3.49962H12V0.179741C11.5852 0.123382 10.7078 0 9.04996 0C5.58819 0 3.55867 1.8393 3.55867 6.0297V8.56055H0V12.3648H3.55867V22.821C4.26344 22.9276 4.97729 23 5.71007 23C6.37245 23 7.01893 22.9391 7.65708 22.8522V12.3648Z" />
+									</svg>
+								</a>
+								<a href="#" class="footer__socials-link">
+									<svg width="22" height="16" viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M2.26249 15.0568C1.87023 14.9408 1.51232 14.7343 1.21896 14.4549C0.925599 14.1754 0.705403 13.8312 0.576947 13.4512C-0.157079 11.4874 -0.374569 3.28693 1.03911 1.66807C1.50961 1.14145 2.17389 0.817218 2.88777 0.765759C6.68024 0.36768 18.3975 0.420757 19.7432 0.898453C20.1217 1.01832 20.4675 1.22026 20.7547 1.48912C21.0419 1.75799 21.263 2.08681 21.4015 2.45096C22.2035 4.48117 22.2307 11.8589 21.2928 13.8095C21.044 14.3173 20.6275 14.7285 20.1102 14.9772C18.6965 15.6672 4.13833 15.6539 2.26249 15.0568ZM8.28422 11.2087L15.0808 7.75869L8.28422 4.28213V11.2087Z" />
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="footer__dia-logo">
+							<img src="img/evidnovlenja.svg" width="297" height="41" loading="lazy" alt="Image">
+						</div>
+					</div>
+					<div data-spollers="767.98" class="footer__columns">
+						<details class="footer__item">
+							<summary class="footer__item-title">
+								Меню
+							</summary>
+							<div class="footer__item-body">
+								<nav class="footer__menu">
+									<ul class="footer__menu-list">
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Дашборд
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Клиенты
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Объекты
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Сметы
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Работы
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Заказы
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">
+												Финансы
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+						<details class="footer__item">
+							<summary class="footer__item-title">
+								Наши Партнери
+							</summary>
+							<div class="footer__item-body">
+								<div class="footer__partners">
+									<div class="footer__partners-item">
+										<img src="img/partners/image-7.webp" width="87" height="61" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-8.webp" width="87" height="56" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-9.webp" width="87" height="26" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-10.webp" width="87" height="13" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-11.webp" width="87" height="61" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-12.webp" width="87" height="61" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-13.webp" width="87" height="37" loading="lazy" alt="Image">
+									</div>
+									<div class="footer__partners-item">
+										<img src="img/partners/image-14.webp" width="87" height="37" loading="lazy" alt="Image">
+									</div>
+								</div>
+							</div>
+						</details>
+					</div>
+					<div class="footer__map">
+						<img src="img/ukraine-map.svg" width="612" height="408" loading="lazy" alt="ukraine-map">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250502111414"></script>
+</body>
+
+</html>
